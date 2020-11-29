@@ -1,0 +1,24 @@
+{
+    "name": "5-Expressions-Operators-Assignment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --verbose",
+        "start": "live-server"
+    },
+    "author": "Keanu Boulany",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "",
+        "@babel/preset-env": "",
+        "babel-jest": "",
+        "jest": "",
+        "live-server": "",
+        "faker": ""
+    },
+    "repository": {
+        "url": ".git",
+        "type": "git"
+    }
+}

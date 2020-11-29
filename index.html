@@ -1,30 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head></head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffs.doStuff</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="app.css" rel= "stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="./scripts/app.js" type="module" defer></script>
+</head>
 <body class="mdc-typography">
     <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
         <div class="mdc-top-app-bar__row">
-            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-                <a href="#" class="material-icons mdc-top-app-bar__action-item mdc-icon-button">
-                    home
-                </a>
-                <span class="mdc-top-app-bar__title mdc-theme--on-primary">
-                    Buffs.blogStuff
-                </span>
-            </section>
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <a href="#" class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="home">home</a>
+          <span class="mdc-top-app-bar__title mdc-theme--on-primary">
+            Buffs.doStuff
+          </span>
+          </section>
         </div>
-    </header>
-    
-    <!-- ... existing HTML ... -->
+      </header>
+      <main class="mdc-top-app-bar--fixed-adjust">
+          <article class="main-content">
+              <h2 class="mdc-typography--headline2 project-title">Inbox</h2>
+              <section class="task-list">
+                <ul class="mdc-list">
+                  <!-- <li class="mdc-list-item complete" tabindex="0">
+                    <span class="mdc-list-item__ripple"></span>
+                    <span class="mdc-list-item__graphic mdc-icon-button">
+                      <i class="material-icons"></i>
+                    </span>
+                    <span class="mdc-list-item__text">Tennessee</span>
+                    <i class="mdc-list-item__meta mdc-icon-button material-icons">delete</i>
+                  </li>
+
+                  <li class="mdc-list-item">
+                    <span class="mdc-list-item__ripple"></span>
+                    <span class="mdc-list-item__graphic mdc-icon-button">
+                      <i class="material-icons"></i>
+                    </span>
+                    <span class="mdc-list-item__text">Milligan</span>
+                    <i class="mdc-list-item__meta mdc-icon-button material-icons">delete</i>
+                  </li> -->
+
+                </ul>
+              </section>
+              <details class="task-list">
+                <summary class="mdc-typography--headline5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est fugit dignissimos magni vitae dolore dolorem exercitationem at perferendis rerum! Cumque suscipit fugit corporis vitae quis deserunt cupiditate, assumenda debitis impedit.</summary>
+                <ul class="mdc-list">
+                  
+                </ul>
+              </details>
+              <details class="task-list">
+                <summary class="mdc-typography--headline5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente suscipit aut amet itaque soluta, officiis culpa mollitia asperiores laborum ut ullam vel aliquid perspiciatis quibusdam et ipsam beatae fugiat placeat?</summary>
+                <ul class="mdc-list">
+                  
+                </ul>
+              </details>
+              <details class="task-list">
+                <summary class="mdc-typography--headline5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, animi ipsum iure eligendi, iste minus repellendus officia quaerat impedit dolorem dolores error voluptatem corporis! Et delectus eligendi dolor iste provident.</summary>
+                <ul class="mdc-list">
+                  
+                </ul>
+                </details>
+          </article>
+
+          <!-- ... existing HTML ... -->
 
 <div id="like_button_container"></div>
 
 <!-- ... existing HTML ... -->
 
-<!-- ... other HTML ... -->
-
+    </main>
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
@@ -34,3 +82,11 @@
   <script src="like_button.js"></script>
 
 </body>
+
+</html>
+    
+    
+
+
+
+ 
